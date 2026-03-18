@@ -936,7 +936,7 @@ button { font-family: var(--font); cursor: pointer; border: none; background: no
 .footer-main {
   max-width: var(--max-w);
   margin: 0 auto;
-  padding: 64px var(--px) 40px;
+  padding: 82px var(--px) 64px;
   position: relative;
   z-index: 1;
 }
@@ -944,7 +944,7 @@ button { font-family: var(--font); cursor: pointer; border: none; background: no
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin-bottom: 64px;
+  margin-bottom: 100px;
 }
 .footer-logo { height: 60px; width: auto; }
 .back-to-top-btn {
@@ -973,7 +973,7 @@ button { font-family: var(--font); cursor: pointer; border: none; background: no
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 64px;
+  margin-bottom: 100px;
 }
 .footer-contact-item .tagline { margin-bottom: 12px; }
 .footer-contact-link {
