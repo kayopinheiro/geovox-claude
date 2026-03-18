@@ -1154,4 +1154,24 @@ button { font-family: var(--font); cursor: pointer; border: none; background: no
     bottom: 75.08%;
     left: 56.53%;
   }
+
+  /* fund-bg-deco: fixed dimensions from Figma mobile (375×2902 frame)
+     group: x=-333, y=2574, w=715, h=521 → anchored from bottom */
+  .fund-bg-deco {
+    top: auto;
+    right: auto;
+    bottom: -193px;
+    left: -333px;
+    width: 715px;
+    height: 521px;
+  }
+
+  /* quote-card-deco: Figma mobile card 315px wide, group x=130, w=249, h=181
+     avg top ~46%, right overflows ~20%, bottom overflows ~7% */
+  .quote-card-deco {
+    top: 42%;
+    left: 41%;
+    right: -20%;
+    bottom: -7%;
+  }
 }
