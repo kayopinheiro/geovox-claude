@@ -970,9 +970,9 @@ button { font-family: var(--font); cursor: pointer; border: none; background: no
 .back-to-top-btn:focus-visible { outline: 2px solid var(--greenery); outline-offset: 3px; border-radius: 999px; }
 
 .footer-contacts {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   margin-bottom: 64px;
 }
 .footer-contact-item .tagline { margin-bottom: 12px; }
@@ -1127,7 +1127,7 @@ button { font-family: var(--font); cursor: pointer; border: none; background: no
   .fund-header { grid-template-columns: 1fr; gap: 36px; }
   .espec-cards { grid-template-columns: 1fr; }
   .founder-entry { grid-template-columns: 1fr; gap: 32px; }
-  .footer-contacts { grid-template-columns: 1fr; gap: 32px; }
+  .footer-contacts { flex-direction: column; gap: 32px; }
   .wsm-heading { font-size: 44px; }
   .navbar-nav { display: none; }
   .carousel-slide { flex: 0 0 calc(85% - 10px); }
