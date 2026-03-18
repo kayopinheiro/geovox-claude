@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GeoVox — We Speak Mining</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header id="navbar">
+    <div class="navbar-inner">
+      <a href="#" class="navbar-logo" aria-label="GeoVox">
+        <img src="assets/Logo.png" alt="GeoVox — We Speak Mining">
+      </a>
+      <nav class="navbar-nav" aria-label="Navegação principal">
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#servicos" class="nav-link">Serviços</a>
+        <a href="#projetos" class="nav-link">Projetos</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+      <div class="navbar-actions">
+        <button id="lang-btn" aria-label="Selecionar idioma" aria-expanded="false">
+          <img src="assets/icon-language.svg" width="24" height="24" alt="" aria-hidden="true">
+          <span id="lang-label">PT</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 10l5 5 5-5z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="hero" aria-label="Hero">
+    <video autoplay muted loop playsinline preload="auto" class="hero-video">
+      <source src="assets/video-bg-hero.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-content">
+      <h1 class="hero-heading">
+        Tradução simultânea<br>
+        para <strong>mineração</strong>
+      </h1>
+      <p class="hero-body">
+        Comunicação multilingue clara, tecnicamente precisa e confiável no setor de mineração.
+        A GeoVox fala a língua da mineração.
+      </p>
+      <a href="#servicos" class="cta-btn" role="button">
+        <div class="cta-inner">
+          <span class="cta-text">WE SPEAK MINING</span>
+          <span class="cta-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===================== SOBRE ===================== -->
+  <section id="sobre" class="section-sobre" aria-label="Sobre a GeoVox">
+    <div class="sobre-bg-deco" aria-hidden="true">
+      <img src="assets/elemento-bg-white.svg" alt="">
+    </div>
+    <div class="container">
+      <div class="tagline">SOBRE A GEOVOX</div>
+      <div class="sobre-grid">
+        <div class="sobre-left">
+          <p class="sobre-heading">
+            A <strong>GeoVox</strong> conecta o setor de mineração em diferentes idiomas, oferecendo <strong>tradução e interpretação técnicas</strong> confiáveis para projetos, operações e parcerias no <strong>Brasil</strong> e na <strong>América Latina.</strong>
+          </p>
+        </div>
+        <div class="sobre-right">
+          <p class="body-medium mb-6">
+            A <strong>GeoVox</strong> torna a <strong>mineração multilingue,</strong> trazendo clareza e conexão a todos os projetos, parcerias e operações, prestando serviços ao <strong>setor de mineração</strong> com interpretação e tecnicamente tradução precisas e confiáveis e apoiando a comunicação eficaz em ambientes técnicos, financeiros, jurídicos e operacionais em todo o <strong>Brasil</strong> e na <strong>América Latina.</strong>
+          </p>
+          <p class="body-medium">
+            Se você trabalha no setor de mineração, tem parceiros no Brasil e na América Latina e não quer perder tempo com barreiras linguísticas, calma… <strong>We speak mining</strong> – da mina ao porto.
+          </p>
+        </div>
+      </div>
+      <div class="sobre-image">
+        <img src="assets/img-sobre.png" alt="Profissional GeoVox em campo de mineração" loading="lazy">
+      </div>
+    </div>
+    <div class="sobre-bg-bottom" aria-hidden="true">
+      <img src="assets/bg-section-sobre.png" alt="">
+    </div>
+  </section>
+
+  <!-- ===================== SERVIÇOS ===================== -->
+  <section id="servicos" class="section-servicos" aria-label="Serviços">
+    <div class="container">
+      <div class="servicos-grid">
+        <!-- Left: info + tabs -->
+        <div class="servicos-left">
+          <div class="tagline tagline-terracota">SERVIÇOS</div>
+          <h2 class="servicos-heading">Como podemos <strong>ajudar</strong></h2>
+          <p class="body-medium body-medium--light">
+            Eliminamos <strong>barreiras linguísticas</strong> em projetos de <strong>mineração</strong> com <strong>tradução e interpretação técnicas</strong> especializadas. Atuamos em auditorias, due diligence, treinamentos e <strong>comunicação operacional</strong>, garantindo precisão técnica da mina ao porto.
+          </p>
+          <div class="service-tabs" role="tablist" aria-label="Tipos de serviço">
+            <button class="service-tab active" data-tab="simultanea" role="tab" aria-selected="true" aria-controls="panel-simultanea" id="tab-simultanea">
+              <span class="tab-icon" aria-hidden="true">
+                <img src="assets/voice_selection.svg" width="24" height="24" alt="">
+              </span>
+              <span class="tab-label">Tradução Simultânea</span>
+              <span class="tab-arrow" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </span>
+            </button>
+            <div class="tab-divider"></div>
+            <button class="service-tab" data-tab="escrita" role="tab" aria-selected="false" aria-controls="panel-escrita" id="tab-escrita">
+              <span class="tab-icon" aria-hidden="true">
+                <img src="assets/contract_edit.svg" width="24" height="24" alt="">
+              </span>
+              <span class="tab-label">Tradução Escrita</span>
+              <span class="tab-arrow" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </span>
+            </button>
+            <div class="tab-divider"></div>
+          </div>
+        </div>
+
+        <!-- Right: card -->
+        <div class="servicos-right">
+          <div class="service-card">
+            <!-- Panel: Simultânea -->
+            <div id="panel-simultanea" class="service-panel active" role="tabpanel" aria-labelledby="tab-simultanea">
+              <div class="service-card-image">
+                <img src="assets/img_traducao-simultanea.png" alt="Tradução Simultânea em reunião de mineração" loading="lazy">
+              </div>
+              <div class="service-card-body">
+                <p class="service-card-subtitle">Suporte linguístico em diversos cenários:</p>
+                <hr class="service-divider">
+                <ul class="service-list">
+                  <li><img src="assets/check_circle.svg" class="check-icon" aria-hidden="true" alt="">Comunicação presencial e online entre equipes multiculturais</li>
+                  <li><img src="assets/check_circle.svg" class="check-icon" aria-hidden="true" alt="">Auditorias e due diligence</li>
+                  <li><img src="assets/check_circle.svg" class="check-icon" aria-hidden="true" alt="">Workshops</li>
+                  <li><img src="assets/check_circle.svg" class="check-icon" aria-hidden="true" alt="">Acompanhamento em feiras e conferências</li>
+                  <li><img src="assets/check_circle.svg" class="check-icon" aria-hidden="true" alt="">Treinamentos técnicos</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Panel: Escrita -->
+            <div id="panel-escrita" class="service-panel" role="tabpanel" aria-labelledby="tab-escrita" hidden>
+              <div class="service-card-image">
+                <img src="https://placehold.co/620x260/4B5E37/ffffff?text=Tradução+Escrita" alt="Tradução Escrita" loading="lazy">
+              </div>
+              <div class="service-card-body">
+                <p class="service-card-subtitle">Documentação técnica especializada:</p>
+                <hr class="service-divider">
+                <ul class="service-list">
+                  <li><img src="assets/check_circle.svg" class="check-icon" aria-hidden="true" alt="">Relatórios técnicos e laudos geológicos</li>
+                  <li><img src="assets/check_circle.svg" class="check-icon" aria-hidden="true" alt="">Contratos e documentos jurídicos</li>
+                  <li><img src="assets/check_circle.svg" class="check-icon" aria-hidden="true" alt="">Manuais operacionais e de equipamentos</li>
+                  <li><img src="assets/check_circle.svg" class="check-icon" aria-hidden="true" alt="">Documentação de due diligence</li>
+                  <li><img src="assets/check_circle.svg" class="check-icon" aria-hidden="true" alt="">Relatórios de compliance e ESG</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== VÍDEO ===================== -->
+  <!-- Troque VIDEO_ID pelo ID real do vídeo no YouTube (ex: dQw4w9WgXcQ) -->
+  <section id="video" class="section-video" aria-label="Veja na prática" data-video-src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&rel=0&modestbranding=1">
+    <div class="video-thumbnail">
+      <img src="assets/Img-carrossel_3.png" alt="Operação de mineração — Veja na prática" loading="lazy">
+      <div class="video-overlay" aria-hidden="true"></div>
+    </div>
+    <button class="play-btn" aria-label="Reproduzir vídeo: Veja na prática">
+      <div class="play-btn-inner">
+        <img src="assets/icon-play_arrow.svg" class="play-icon" width="24" height="24" alt="" aria-hidden="true">
+        <span>Veja na prática</span>
+      </div>
+    </button>
+  </section>
+
+  <!-- ===================== PROJETOS ===================== -->
+  <section id="projetos" class="section-projetos" aria-label="Projetos">
+    <div class="projetos-bg-deco" aria-hidden="true">
+      <img src="assets/elemento-bg-white.svg" alt="">
+    </div>
+    <div class="container">
+      <div class="projetos-header">
+        <div class="projetos-header-left">
+          <div class="tagline">PROJETOS</div>
+          <h2 class="h2-heading">A GeoVox em <strong>Ação</strong></h2>
+        </div>
+        <div class="projetos-header-right">
+          <p class="body-medium">O trabalho entre equipes multiculturais não precisa ser difícil. A GeoVox cuida da comunicação enquanto seus talentos focam nos aspectos técnicos.</p>
+          <p class="projetos-cta-text">Veja como nosso trabalho facilita a comunicação de assuntos técnicos no setor de mineração.</p>
+        </div>
+      </div>
+
+      <!-- Carousel -->
+      <div class="carousel" role="region" aria-label="Projetos em destaque" aria-roledescription="carrossel">
+        <div class="carousel-viewport">
+          <div class="carousel-track" id="carousel-track">
+            <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="Slide 1 de 4">
+              <img src="assets/Img-carrossel_1.png" alt="Projeto GeoVox 1">
+              <div class="slide-overlay"><p>Lorem ipsum dolor</p></div>
+            </div>
+            <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="Slide 2 de 4">
+              <img src="assets/Img-carrossel_2.png" alt="Projeto GeoVox 2">
+              <div class="slide-overlay"><p>Lorem ipsum dolor</p></div>
+            </div>
+            <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="Slide 3 de 4">
+              <img src="assets/Img-carrossel_3.png" alt="Projeto GeoVox 3">
+              <div class="slide-overlay"><p>Lorem ipsum dolor</p></div>
+            </div>
+            <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="Slide 4 de 4">
+              <img src="assets/Img-carrossel_4.png" alt="Projeto GeoVox 4">
+              <div class="slide-overlay"><p>Lorem ipsum dolor</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <div class="carousel-dots" role="group" aria-label="Navegação do carrossel" id="carousel-dots">
+            <button class="dot active" data-index="0" aria-label="Ir para slide 1" aria-current="true"></button>
+            <button class="dot" data-index="1" aria-label="Ir para slide 2"></button>
+            <button class="dot" data-index="2" aria-label="Ir para slide 3"></button>
+          </div>
+          <div class="carousel-arrows">
+            <button id="prev-btn" class="carousel-arrow" aria-label="Slide anterior">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+            </button>
+            <button id="next-btn" class="carousel-arrow" aria-label="Próximo slide">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ESPECIALIZAÇÕES ===================== -->
+  <section id="especializacoes" class="section-espec" aria-label="Áreas de Especialização">
+    <div class="espec-bg-deco" aria-hidden="true">
+      <img src="assets/elemento_bg_barn-red-900.svg" alt="">
+    </div>
+    <div class="container">
+      <div class="espec-header">
+        <div class="espec-header-left">
+          <div class="tagline tagline-yellow">SERVIÇOS</div>
+          <h2 class="h2-heading h2-heading--white">Áreas de <strong>Especialização</strong></h2>
+        </div>
+        <div class="espec-header-right">
+          <p class="body-medium body-medium--faint">
+            Eliminamos <strong>barreiras linguísticas</strong> em projetos de <strong>mineração</strong> com <strong>tradução e interpretação técnicas</strong> especializadas. Atuamos em auditorias, due diligence, treinamentos e <strong>comunicação operacional</strong>, garantindo precisão técnica da mina ao porto.
+          </p>
+        </div>
+      </div>
+      <div class="espec-cards">
+        <div class="espec-card">
+          <h3 class="espec-card-title">Geociência e Engenharia</h3>
+          <div class="espec-tags">
+            <span class="espec-tag"><img src="assets/check_small.svg" class="check-small" aria-hidden="true" alt="">Geologia</span>
+            <span class="espec-tag"><img src="assets/check_small.svg" class="check-small" aria-hidden="true" alt="">Geofísica</span>
+            <span class="espec-tag"><img src="assets/check_small.svg" class="check-small" aria-hidden="true" alt="">Ciências Ambientais</span>
+            <span class="espec-tag"><img src="assets/check_small.svg" class="check-small" aria-hidden="true" alt="">Engenharia de Minas</span>
+            <span class="espec-tag"><img src="assets/check_small.svg" class="check-small" aria-hidden="true" alt="">Topografia</span>
+            <span class="espec-tag"><img src="assets/check_small.svg" class="check-small" aria-hidden="true" alt="">Hidrologia</span>
+            <span class="espec-tag"><img src="assets/check_small.svg" class="check-small" aria-hidden="true" alt="">Recursos Hídricos</span>
+          </div>
+        </div>
+        <div class="espec-card">
+          <h3 class="espec-card-title">Operações e Gestões</h3>
+          <div class="espec-tags">
+            <span class="espec-tag"><img src="assets/check_small.svg" class="check-small" aria-hidden="true" alt="">Processamento Mineral</span>
+            <span class="espec-tag"><img src="assets/check_small.svg" class="check-small" aria-hidden="true" alt="">Metalurgia</span>
+            <span class="espec-tag"><img src="assets/check_small.svg" class="check-small" aria-hidden="true" alt="">Gestão de Projetos</span>
+            <span class="espec-tag"><img src="assets/check_small.svg" class="check-small" aria-hidden="true" alt="">SSMA</span>
+            <span class="espec-tag"><img src="assets/check_small.svg" class="check-small" aria-hidden="true" alt="">Logística e Cadeia de Suprimentos</span>
+          </div>
+        </div>
+        <div class="espec-card">
+          <h3 class="espec-card-title">Compliance e Negócios</h3>
+          <div class="espec-tags">
+            <span class="espec-tag"><img src="assets/check_small.svg" class="check-small" aria-hidden="true" alt="">ESG</span>
+            <span class="espec-tag"><img src="assets/check_small.svg" class="check-small" aria-hidden="true" alt="">Conformidade Regulatória</span>
+            <span class="espec-tag"><img src="assets/check_small.svg" class="check-small" aria-hidden="true" alt="">Fusões e Aquisições</span>
+            <span class="espec-tag"><img src="assets/check_small.svg" class="check-small" aria-hidden="true" alt="">Due Diligence</span>
+            <span class="espec-tag"><img src="assets/check_small.svg" class="check-small" aria-hidden="true" alt="">CapEx</span>
+            <span class="espec-tag"><img src="assets/check_small.svg" class="check-small" aria-hidden="true" alt="">OpEx</span>
+            <span class="espec-tag"><img src="assets/check_small.svg" class="check-small" aria-hidden="true" alt="">Gestão de Riscos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FUNDADORAS ===================== -->
+  <section id="fundadoras" class="section-fundadoras" aria-label="Fundadoras">
+    <div class="fund-bg-deco" aria-hidden="true">
+      <img src="assets/elemento-bg-white.svg" alt="">
+    </div>
+    <div class="container">
+      <div class="fund-header">
+        <div class="fund-header-left">
+          <h2 class="h2-heading">Fundadoras</h2>
+        </div>
+        <div class="fund-header-right">
+          <p class="body-medium">
+            Eliminamos <strong>barreiras linguísticas</strong> no setor de <strong>mineração</strong> com <strong>tradução e interpretação técnicas</strong> especializadas. Atuamos da <strong>mina ao porto,</strong> garantindo comunicação precisa em <strong>projetos, auditorias e operações.</strong>
+          </p>
+        </div>
+      </div>
+
+      <hr class="fund-divider">
+
+      <!-- Patricia Loreto -->
+      <div class="founder-entry">
+        <div class="founder-avatar-col">
+          <div class="founder-avatar-stack">
+            <div class="avatar-bg-circle avatar-bg--patricia">
+              <img src="assets/elemento_avatar_patricia.svg" alt="" class="avatar-deco" aria-hidden="true">
+            </div>
+            <div class="avatar-photo-circle">
+              <img src="assets/avatar_patricia.png" alt="Foto de Patricia Loreto">
+            </div>
+          </div>
+        </div>
+        <div class="founder-info">
+          <div class="tagline tagline-greenery">INTÉRPRETE</div>
+          <div class="founder-name-row">
+            <h3 class="founder-name">Patricia <strong>Loreto</strong></h3>
+          </div>
+          <div class="founder-links">
+            <a href="https://www.linkedin.com/in/patricia-loreto-156bb416/" class="founder-link-btn" aria-label="LinkedIn de Patricia Loreto" target="_blank" rel="noopener noreferrer">
+              <img src="assets/Linkedin.svg" alt="" aria-hidden="true" class="founder-link-icon">
+              <span>Linkedin</span>
+            </a>
+            <a href="https://aiic.org/custom/client/roster/clientRosterDetailsPath/5978/pairs?no_header=true&name=Patricia-LORETO" class="founder-link-btn" aria-label="AIIC – Patricia Loreto" target="_blank" rel="noopener noreferrer">
+              <img src="assets/Section/Link Icon 1.svg" alt="" aria-hidden="true" class="founder-link-icon">
+              <span>AIIC</span>
+            </a>
+            <a href="https://apic.org.br/pt/interprete/613/" class="founder-link-btn" aria-label="APIC – Patricia Loreto" target="_blank" rel="noopener noreferrer">
+              <img src="assets/Section/Icon/Apic.svg" alt="" aria-hidden="true" class="founder-link-icon">
+              <span>APIC</span>
+            </a>
+            <a href="#" class="founder-link-btn" aria-label="ATA – Patricia Loreto" rel="noopener noreferrer">
+              <img src="assets/Section/Icon/Ata.svg" alt="" aria-hidden="true" class="founder-link-icon">
+              <span>ATA</span>
+            </a>
+          </div>
+          <p class="body-medium founder-bio">
+            Intérprete e tradutora com mais de <strong>duas décadas de experiência</strong> no setor de <strong>mineração</strong>, atuando em todas as etapas das operações — da mina ao porto. Tem formação sólida em <strong>tradução e interpretação de conferências</strong>, com especialização contínua no Brasil e no exterior. Atua em <strong>projetos complexos</strong>, auditorias, investigações técnicas e ambientes de alta criticidade com <strong>precisão técnica</strong> e fluência operacional.
+          </p>
+          <blockquote class="quote-card quote-card--red">
+            <div class="quote-card-deco" aria-hidden="true">
+              <img src="assets/elemento_quote_praticia.svg" alt="">
+            </div>
+            <p>É membro efetivo da <strong>APIC</strong> – Associação Profissional de Intérpretes de Conferência (Brasil), <strong>AIIC</strong> – Associação Internacional de Intérpretes de Conferência (Europa) e <strong>ATA</strong> - American Translation Association (EUA)</p>
+          </blockquote>
+        </div>
+      </div>
+
+      <hr class="fund-divider">
+
+      <!-- Melissa Mann -->
+      <div class="founder-entry">
+        <div class="founder-avatar-col">
+          <div class="founder-avatar-stack">
+            <div class="avatar-bg-circle avatar-bg--melissa">
+              <img src="assets/elemento_avatar_melissa.svg" alt="" class="avatar-deco" aria-hidden="true">
+            </div>
+            <div class="avatar-photo-circle">
+              <img src="assets/avatar_melissa.png" alt="Foto de Melissa Mann">
+            </div>
+          </div>
+        </div>
+        <div class="founder-info">
+          <div class="tagline tagline-greenery">INTÉRPRETE</div>
+          <div class="founder-name-row">
+            <h3 class="founder-name">Melissa <strong>Mann</strong></h3>
+          </div>
+          <div class="founder-links">
+            <a href="https://www.linkedin.com/in/melissamann/" class="founder-link-btn" aria-label="LinkedIn de Melissa Mann" target="_blank" rel="noopener noreferrer">
+              <img src="assets/Linkedin.svg" alt="" aria-hidden="true" class="founder-link-icon">
+              <span>Linkedin</span>
+            </a>
+            <a href="https://aiic.org/custom/client/roster/clientRosterDetailsPath/6080/pairs?no_header=true&name=Melissa-MANN" class="founder-link-btn" aria-label="AIIC – Melissa Mann" target="_blank" rel="noopener noreferrer">
+              <img src="assets/Section/Link Icon 1.svg" alt="" aria-hidden="true" class="founder-link-icon">
+              <span>AIIC</span>
+            </a>
+            <a href="https://apic.org.br/pt/interprete/707/" class="founder-link-btn" aria-label="APIC – Melissa Mann" target="_blank" rel="noopener noreferrer">
+              <img src="assets/Section/Icon/Apic.svg" alt="" aria-hidden="true" class="founder-link-icon">
+              <span>APIC</span>
+            </a>
+            <a href="https://www.atanet.org/member-directory/melissa-mann/" class="founder-link-btn" aria-label="ATA – Melissa Mann" target="_blank" rel="noopener noreferrer">
+              <img src="assets/Section/Icon/Ata.svg" alt="" aria-hidden="true" class="founder-link-icon">
+              <span>ATA</span>
+            </a>
+          </div>
+          <p class="body-medium founder-bio">
+            Intérprete de conferências e tradutora com <strong>mais de 25 anos de experiência</strong>, 
+atuando em contextos internacionais entre <strong>inglês, português e espanhol</strong>. 
+Ao longo da carreira, trabalhou em projetos complexos envolvendo 
+<strong>governo, finanças, meio ambiente, saúde e indústria</strong>, 
+desenvolvendo <strong>especialização em interpretação para o setor de mineração</strong> 
+em operações que vão da <strong>exploração à relação com investidores e comunidades</strong>.
+          <blockquote class="quote-card quote-card--green">
+            <div class="quote-card-deco" aria-hidden="true">
+              <img src="assets/elemento_quote_melissa.svg" alt="">
+            </div>
+            <p>É membro da <strong>AIIC</strong> – Associação Internacional de Intérpretes de Conferência 
+e da <strong>APIC</strong> – Associação Profissional de Intérpretes de Conferência (Brasil), 
+e tradutora certificada pela <strong>ATA</strong> – American Translators Association.</p>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== WE SPEAK MINING ===================== -->
+  <section id="we-speak-mining" class="section-wsm" aria-label="We Speak Mining">
+    <img src="assets/bg-imag_we-speak-mining.png" alt="Paisagem de mineração" class="wsm-bg" loading="lazy">
+    <div class="wsm-overlay" aria-hidden="true"></div>
+    <div class="wsm-content">
+      <h2 class="wsm-heading">We Speak Mining</h2>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer id="contato" class="footer" aria-label="Rodapé e contato">
+    <div class="footer-bg-deco" aria-hidden="true">
+      <img src="assets/elemento-footer.svg" alt="">
+    </div>
+    <div class="footer-main">
+      <div class="footer-top">
+        <a href="#" class="footer-logo-link" aria-label="GeoVox — We Speak Mining">
+          <img src="assets/Logo.png" alt="GeoVox" class="footer-logo">
+        </a>
+        <button id="back-to-top" class="back-to-top-btn" aria-label="Voltar ao topo da página">
+          <span>VOLTAR AO TOPO</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+            <path d="M5 9l1.41 1.41L11 5.83V21h2V5.83l4.59 4.58L19 9l-7-7-7 7z"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="footer-contacts">
+        <div class="footer-contact-item">
+          <div class="tagline tagline-yellow">E-MAIL</div>
+          <a href="mailto:info@geovoxglobal.com" class="footer-contact-link">info@geovoxglobal.com</a>
+        </div>
+        <div class="footer-contact-item">
+          <div class="tagline tagline-yellow">WHATSAPP</div>
+          <a href="https://wa.me/5500988888888" class="footer-contact-link">+55 (00) 98888-8888</a>
+        </div>
+        <div class="footer-contact-item">
+          <div class="tagline tagline-yellow">WHATSAPP</div>
+          <a href="https://wa.me/5500988888888" class="footer-contact-link">+55 (00) 98888-8888</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2026 GEOVOX · We speak mining. Todos os direitos reservados.</p>
+        <p class="footer-credit">Site desenvolvido por <a href="https://www.mukutu.com.br/" target="_blank" rel="noopener noreferrer" class="footer-mukutu-link"><strong>Mukutu</strong><img src="assets/Mukutu Brand.svg" alt="Mukutu" class="mukutu-icon" aria-hidden="true"></a></p>
+      </div>
+    </div>
+
+    <!-- Decorative bottom bars -->
+    <div class="footer-bars" aria-hidden="true">
+      <div class="footer-bar footer-bar--pantone"></div>
+      <div class="footer-bar footer-bar--yellow"></div>
+      <div class="footer-bar footer-bar--red"></div>
+    </div>
+  </footer>
+
+  <!-- ===================== VÍDEO MODAL ===================== -->
+  <div id="video-modal" class="video-modal" role="dialog" aria-modal="true" aria-label="Veja na prática" hidden>
+    <div class="video-modal-backdrop" id="video-modal-backdrop"></div>
+    <div class="video-modal-content">
+      <button class="video-modal-close" id="video-modal-close" aria-label="Fechar vídeo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div class="video-modal-player">
+        <iframe id="video-iframe" src="" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen title="Veja na prática — GeoVox"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
