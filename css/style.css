@@ -972,7 +972,8 @@ button { font-family: var(--font); cursor: pointer; border: none; background: no
 .footer-contacts {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
+  align-self: stretch;
   margin-bottom: 100px;
 }
 .footer-contact-item .tagline { margin-bottom: 12px; }
